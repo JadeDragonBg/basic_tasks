@@ -1,0 +1,25 @@
+function getGrade(score) {
+	if (score < 6) {
+		return 'F';
+	}
+	if (score > 5 && score < 11) {
+		return 'E';
+	}
+	if (score > 10 && score < 16) {
+		return 'D';
+	}
+	if (score > 15 && score < 21) {
+		return 'C';
+	}
+	if (score > 20 && score < 26) {
+		return 'B';
+	}
+	if (score > 25) {
+		return 'A';
+	}
+
+	return 'Error';
+}
+
+// let grade = getGrade(14);
+// console.log(grade);
