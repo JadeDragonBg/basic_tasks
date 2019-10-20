@@ -17,3 +17,24 @@ Example call: `diagonalAbsDiff([[1,2,3],[4,5,6],[7,8,9]]);`. Expected return val
 ### Staircase
 Create a function with name `printStaircase` that accepts single number as argument and returns a string formatted as staircase. Use only spaces, `#` and new lines. String should not end with new line.
 Example call: `printStaircase(3);`. Expected return value: `  #\n ##\n###`
+
+## Task 4:
+### Conditional Statements: If-Else
+Create a function with name `getGrade` that converts score into grade. Max score - 30, min score - 0.
+If 25 < score <= 30, then grade A.
+If 20 < score <= 25, then grade B.
+If 15 < score <= 20, then grade C.
+If 10 < score <= 15, then grade D.
+If 5 < score <= 10, then grade E.
+If 0 < score <= 5, then grade F.
+Example call: `getGrade(26);` expected return value - `A`
+
+## Task 5:
+### Create a Rectangle Object
+Create a function with name `createRectangle` that has 2 parameters
+width and height. It has to return object with following properties:
+height: This value is equal to height.
+width: This value is equal to width.
+area: This value is equal to height*width.
+perimeter: This value is equal to (height+width)*2.
+Example call: `createRectangle(2,1);` expected return value - `{width: 2, height: 1, area: 2, perimeter: 6}`
