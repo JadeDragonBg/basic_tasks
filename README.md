@@ -11,7 +11,7 @@ Example call: `arraySum([1,2,3]);`. Expected return value: `6`
 ### Diagonal Difference
 Create a function with name `diagonalAbsDiff` that accepts matrix as argument and
 calculates the absolute difference between the sums of its diagonals.
-Example call: `diagonalAbsDiff([[1,2,3],[4,5,6],[7,8,9]]);`. Expected return value: `2`
+Example call: `diagonalAbsDiff([[1,2,3],[4,5,6],[7,8,9]]);`. Expected return value: `0`
 
 ## Task 3:
 ### Staircase
