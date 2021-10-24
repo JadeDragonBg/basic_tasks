@@ -2,18 +2,23 @@ function getGrade(score) {
 	if (score < 6) {
 		return 'F';
 	}
-	if (score > 5 && score < 11) {
+
+	if (score < 11) {
 		return 'E';
 	}
-	if (score > 10 && score < 16) {
+
+	if (score < 16) {
 		return 'D';
 	}
-	if (score > 15 && score < 21) {
+
+	if (score < 21) {
 		return 'C';
 	}
-	if (score > 20 && score < 26) {
+
+	if (score < 26) {
 		return 'B';
 	}
+
 	if (score > 25) {
 		return 'A';
 	}
